@@ -1,15 +1,14 @@
-package code1036;
+package code1031;
 
 import java.util.Scanner;
 
-public class Main {
+public class answer {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int i= sc.nextInt();
 		
-		String s = sc.nextLine();
-		System.out.println((int)s.charAt(0));
-		
+		System.out.printf("%o",i);
 		sc.close();
 	}
 
