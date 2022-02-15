@@ -8,6 +8,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String x = sc.next();
 		System.out.println(x);
+		
+		sc.close();
 	}
 
 }
