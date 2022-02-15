@@ -1,18 +1,17 @@
-package code1046;
+package code1048;
 
 import java.util.Scanner;
 
-public class Main {
+public class answer {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int a,b,c;
+		int a,b;
 		a=sc.nextInt();
 		b=sc.nextInt();
-		c=sc.nextInt();
-		System.out.println(a+b+c);
-		System.out.printf("%.1f",(float)(a+b+c)/3);
+		
+		System.out.println(a<<b);
 		
 		sc.close();
 	}
